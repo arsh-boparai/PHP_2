@@ -34,15 +34,21 @@ for($i=0;$i<3;$i++)
 {
 	echo 'cars['.$i.'] = '.$cars[$i]."<br>";
 }
+
 $age = array("Arshdeep"=>"23", "Nancy"=>"23", "Joe"=>"43");
 foreach($age as $x => $x_value) {
     echo "Name=" . $x . ", Age=" . $x_value;
     echo "<br>";
 }
-
-
-
 ?>
+<form action="welcome_get.php" method="get">
+Name: <input type="text" name="name"><br>
+E-mail: <input type="text" name="email"><br>
+<input type="submit">
+</form>
+
+
+
 	</body>
 	
 </html>
